@@ -19,7 +19,7 @@
       <ion-input formControlName="usuario" type="text"></ion-input>
     </ion-item>
     <ion-note color="danger" *ngIf="loginForm.get('usuario')?.invalid && loginForm.get('usuario')?.touched">
-      Usuario entre 3 y 8 caracteres
+      Ingresar Usuario entre 3 y 8 caracteres
     </ion-note>
 
     <ion-item>
@@ -27,7 +27,7 @@
       <ion-input formControlName="clave" type="password"></ion-input>
     </ion-item>
     <ion-note color="danger" *ngIf="loginForm.get('clave')?.invalid && loginForm.get('clave')?.touched">
-      Clave de 4 dígitos numéricos
+      Ingresar Clave de 4 dígitos numéricos
     </ion-note>
 
     <div class="ion-text-center encabezado">

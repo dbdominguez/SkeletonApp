@@ -19,3 +19,11 @@
     margin-top: 20px;
     font-weight: normal;
   }
+
+  .custom-loading {
+    --background: rgba(255, 255, 255, 0.95);
+    --spinner-color: #3880ff;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+  }

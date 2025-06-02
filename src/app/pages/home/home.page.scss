@@ -1,0 +1,45 @@
+.encabezado {
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .titulo-principal {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .subtitulo {
+    font-size: 14px;
+    color: gray;
+    margin-top: 4px;
+  }
+  
+  .informacion {
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: normal;
+  }
+
+  .datepicker-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: flex-end;
+  
+    mat-form-field {
+      width: 100%;
+      max-width: 200px; 
+    }
+  }
+
+  .botones-horizontales {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  
+  .botones-horizontales ion-button {
+    flex: 1 1 auto;
+    max-width: 150px;
+  }
