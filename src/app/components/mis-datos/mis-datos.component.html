@@ -1,0 +1,32 @@
+<ion-card [@slideIn]>
+  <ion-card-header>
+    <ion-card-title>Mis Datos</ion-card-title>
+  </ion-card-header>
+
+  <ion-card-content [class.animar]="animarCampos">
+    <form [formGroup]="form">
+      <ion-item>
+        <ion-label position="floating">Nombre</ion-label>
+        <ion-input formControlName="nombre"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Apellido</ion-label>
+        <ion-input formControlName="apellido"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Nivel</ion-label>
+        <ion-input formControlName="nivel"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="stacked">Fecha de Nacimiento</ion-label>
+        <ion-datetime formControlName="fechaNacimiento"></ion-datetime>
+      </ion-item>
+
+      <ion-button expand="block" (click)="mostrar()">Mostrar</ion-button>
+      <ion-button expand="block" color="medium" (click)="limpiar()">Limpiar</ion-button>
+    </form>
+  </ion-card-content>
+</ion-card>
